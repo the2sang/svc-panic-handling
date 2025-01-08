@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/the2sang/panic-svc-handling/service";
+option go_package = "github.com/the2sang/svc-panic-handling/service";
 
 service Users {
   rpc GetUser (UserGetRequest) returns (UserGetReply) {}
